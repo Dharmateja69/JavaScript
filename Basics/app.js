@@ -1,17 +1,9 @@
-// hjdfhvkdhdkbhd comments the line  we use ctrl+/ where after the running the code it will not compile the the commentscode
-//shortcut for conole.log( clg),(log)
-
-
-// variables ->a quantity which can be changed during the operation in the code
-//(reserved keyword)- (variable name)- (type of value) 
-
-// let name; // declaring a variable
+//if we declare a variable with const then its value cannot be changed ones it is assigned
+//
+// const name = "sudhu"
+// name = "shdu"
 // console.log(name)
+// app.js:4 Uncaught TypeError: Assignment to constant variable.
+// at app.js:4:6
 
-// let name = 5; // Assigning  a value
-// let name1 = "sidhu"
-// console.log(name)
-// console.log(name1)
-// console.log({ name, name1 })
-
-//Conventation used to create a variable we use let keyword
+//Assignment
