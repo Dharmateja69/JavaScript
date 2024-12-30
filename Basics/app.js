@@ -33,5 +33,30 @@
 // console.log(counter)
 
 
+// Boolean -> true|| false
+// let isTrue = true;
+// let isFalse = false;
+// let notanumber = NaN;
+// let num = 10;
+// console.log(num + undefined)
+
+// console.log(isFalse)
+
+// console.log(isTrue)
+// console.log(notanumber)
+//->falsy so these all are the falsy values other then that are true values
+// false
+// null
+// undefined
+// 0
+// -0
+// NaN
+// '',"",``,(emptty quotes)
+
+// let noDefined = undefined;//but here it is done by the javascript compiler
+// let noDefined1 = null; //it can be manualy added by the developer
+
+// console.log(noDefined)
+// console.log(noDefined1)
 
 
