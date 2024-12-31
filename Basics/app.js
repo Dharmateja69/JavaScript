@@ -87,7 +87,48 @@
 
 // Strings
 
+let firstname = '      sidhu'
+let second = "webdev"
+let fullname = firstname + " " + second//This process is known as string concatination
+console.table({ fullname })
+//1.Concatination
 
+let fulln = firstname.concat(second)//concat is a method used to concatinate the string
+console.table({ fulln })
+
+//2.Append
+
+firstname += " something else"
+console.log(firstname)
+//3.lenght
+
+console.log(firstname.length)
+
+//4.cases
+console.log(firstname.toLowerCase())
+console.log(firstname.toUpperCase())
+
+
+//5.slice
+console.log(firstname.slice(0, 5))//in this only start=0 is included where end=5 is excluded
+
+//6.Split and join
+console.log(firstname.split(" "))//if it is  split("") then it will give in the from of array of letters where as if it is split(" ") then it will give in the form of word array
+//7.Includes
+console.log(firstname.includes("i"))//it returnn true or false if the charc is present or not int he word
+
+//8. Trim
+console.log(firstname.trim())
+
+
+
+let desc = `"this is some randmom 
+
+
+text 
+
+"`
+console.log(desc)
 
 
 
