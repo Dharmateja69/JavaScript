@@ -8,7 +8,7 @@ let gender = "male"
 let twitterHandle = "url______url"
 // 5
 console.log(name)
-console.log(whatDoyouwannaBecomeInYourlife)
+console.log(whatDoyouwannaBecomeInYourlife)//console is object where we will have the different methods for the object
 console.log(gender)
 console.log(twitterHandle)
 

@@ -62,14 +62,14 @@
 // Comparison Operators are divided
 // relational operators
 // > Greater then,< less then,>= greater then equal,<= less then equal
-console.log(10 > 10)//gives a boolean value true||false
+// console.log(10 > 10)//gives a boolean value true||false
 
-console.log(10 < 10)
-console.log(10 <= 10)
-console.log(10 >= 10)
+// console.log(10 < 10)
+// console.log(10 <= 10)
+// console.log(10 >= 10)
 
 
-console.log("===================================================")
+// console.log("===================================================")
 
 
 // Equality Operators
@@ -77,12 +77,15 @@ console.log("===================================================")
 // !=== strict non-equality operators (type+value)
 // ==lose equality operator (value)
 // !== lose not equality operator(value)
-console.log(10 === 10)
-console.log(10 === 20)
-console.log(10 === 20)
+// console.log(10 === 10)
+// console.log(10 === 20)
+// console.log(10 === 20)
 
-console.log(10 === "10")
-console.log(10 == "10")
+// console.log(10 === "10")
+// console.log(10 == "10")
+
+
+// Strings
 
 
 
