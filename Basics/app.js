@@ -219,3 +219,59 @@
 //     console.log('hello world', i)
 //     i++;
 // }
+// do while loop
+//not much required
+// let i = 20
+
+// do {
+//     console.log("sidhu")
+//     i++;
+// } while (i <= 200)
+
+// 1->Logical AND(&&)
+// // True if both the operands/booleam values are ture evaluates to false if both are false
+// const a = true
+// const b = false
+// const c = 4
+// console.log(c > 2 && c < 2)
+
+// // 2-> Logical OR(||)
+// // True if either the operands/booleam values are ture evaluates to false if both are false
+// console.log(a || b)
+// console.log(a || a)
+// console.log(b || b)
+
+
+
+// // 3-> Logical NOT(!)
+// // true if the operands is false and vice-versa
+// console.log(!a)
+// console.log(b)
+// console.log(!b)
+// console.log(a)
+
+
+let pass = "sidhu-sid"
+if (pass.length >= 8 && pass.includes('e')) {//one true and other is false 
+    console.log("valid password")
+} else {
+    console.log("not a valid password")
+}
+
+// Arrays are used to store multiple data type are stored in it and (it is based on ->0 index based)
+
+// empty array
+
+const mylis = [1, 2, 3, 1, 2, 3, 32, 1, 1,]
+for (let i = 0; i < mylis.length; i++) {
+    console.log("---" + mylis[i])
+}
+console.log(mylis)
+
+// nested array //or 2 d array
+const outA = ['one', ['two', '3', 1, 2, 3, true, "flase"], 4, "fail", "fail", "ddsd"]
+console.log(outA)
+console.log(outA[1][2])
+
+
+
