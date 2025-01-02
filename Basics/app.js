@@ -251,27 +251,90 @@
 // console.log(a)
 
 
-let pass = "sidhu-sid"
-if (pass.length >= 8 && pass.includes('e')) {//one true and other is false 
-    console.log("valid password")
-} else {
-    console.log("not a valid password")
-}
+// let pass = "sidhu-sid"
+// if (pass.length >= 8 && pass.includes('e')) {//one true and other is false 
+//     console.log("valid password")
+// } else {
+//     console.log("not a valid password")
+// }
 
 // Arrays are used to store multiple data type are stored in it and (it is based on ->0 index based)
 
 // empty array
 
-const mylis = [1, 2, 3, 1, 2, 3, 32, 1, 1,]
-for (let i = 0; i < mylis.length; i++) {
-    console.log("---" + mylis[i])
-}
-console.log(mylis)
+// const mylis = [1, 2, 3, 1, 2, 3, 32, 1, 1,]
+// for (let i = 0; i < mylis.length; i++) {
+//     console.log("---" + mylis[i])
+// }
+// console.log(mylis)
 
-// nested array //or 2 d array
-const outA = ['one', ['two', '3', 1, 2, 3, true, "flase"], 4, "fail", "fail", "ddsd"]
-console.log(outA)
-console.log(outA[1][2])
+// // nested array //or 2 d array
+// const outA = ['one', ['two', '3', 1, 2, 3, true, "flase"], 4, "fail", "fail", "ddsd"]
+// console.log(outA)
+// console.log(outA[1][2])
+
+// ======================================================================
+// array methods
+
+const fruites = ["2323", "fsfdfss", "dsfsdfsd", "fsdfsfd", "sfsdfs"]
+const fruites1 = ["sidhu", "fsfdfss", "dsfsdfsd", "fsdfsfd", "sfsdfs"]
+// const totalfruites = fruites.concat(fruites1)
+// console.log(totalfruites)
+
+// fruites.push("bannanna")//adds the new data at the end of the array
+// console.log(fruites)
+// fruites.pop()//removes the last element from the array
+// console.log(
+//     fruites
+// )
+// console.log(fruites)
+// fruites.shift()//Removes the first element from an array and returns it. If the array is empty, undefined is returned and the array is not modified.
+// console.log(fruites)
+// fruites.unshift('sidhu')//Inserts new elements at the start of an array, and returns the new length of the array.
+
+// // @param items — Elements to insert at the start of the array.
+// console.log(fruites)
+
+// const pl = ['javas', 'golang', 'python', 'php']
+// const nubmers = [3, 4, 5, 4, 5, 21, 32]
+
+// console.log(pl.includes('golang'))
+// console.log(pl.join('--$$--'))
+// console.log(pl)
+// console.log(pl.reverse())
+// console.log(pl.slice(0, 2))//0 will be included where 2 is excluded  so it will go till 0,1 only 
+// console.log(nubmers.sort())
+
+// OBJECTS -> {:,:,}
+// const person = {
+//     fname: "sidhu",
+//     lname: "teja",
+//     age: 12,
+//     location: ['Planet', "Earth"], //nested 
+//     isProgrammer: true,
+// }
+
+// console.log(person)
+// console.log(typeof person)
+
+// //Accessing Items fro ou object
+// //2 ways 
+// //dot notation
+// console.log(person.isProgrammer)
+// console.log(person.fname)
+// console.log(person.age)
+// //[] method
+// console.log(person["location"])
+// console.log(person["fname"])
+// console.log(person["age"])
+
+// person.fname = "sid"
+// console.log(person)
+// delete person.age
+// console.log(person)
+
+
+
 
 
 
