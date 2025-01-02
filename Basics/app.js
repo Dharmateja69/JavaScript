@@ -162,3 +162,31 @@
 //     console.log("b  is greater then a");
 // }
 // Switch Statements
+//another way to control the flow of the program
+
+//switch(expression){
+//case x:
+//print;
+//break;
+//case y:
+// print;
+//break;
+// default:
+// break;
+// }
+
+let x = 2
+let bulb
+
+switch (x) {
+    case 0:
+        bulb = "off"
+        console.log(bulb)
+        break
+    case 1:
+        bulb = "on"
+        console.log(bulb)
+        break
+    default:
+        console.log("invalid input")
+}
