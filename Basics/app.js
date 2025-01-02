@@ -175,18 +175,47 @@
 // break;
 // }
 
-let x = 2
-let bulb
+// let x = 2
+// let bulb
 
-switch (x) {
-    case 0:
-        bulb = "off"
-        console.log(bulb)
-        break
-    case 1:
-        bulb = "on"
-        console.log(bulb)
-        break
-    default:
-        console.log("invalid input")
-}
+// switch (x) {
+//     case 0:
+//         bulb = "off"
+//         console.log(bulb)
+//         break
+//     case 1:
+//         bulb = "on"
+//         console.log(bulb)
+//         break
+//     default:
+//         console.log("invalid input")
+// }
+//===================================================================
+// for loop // DRY->Do not repeat 
+
+// let t=1
+
+//syntax: for(inititalexpression ; condition; incremment or decrement expression)
+
+// for (let index = 0; index < 4; index++) {
+//     console.table({ index });
+//     console.log("sidhu", index)
+
+// }
+// nested for loop
+// for (let index = 0; index < 10; index++) {
+//     console.log("======outer loop===")
+//     for (let index = 0; index < 4; index++) {
+//         console.log("====innerloops====")
+//     }
+// }
+
+// =======================================================
+// while(condtion){  statement............}
+
+
+// let i = 0
+// while (i <= 5) {
+//     console.log('hello world', i)
+//     i++;
+// }
