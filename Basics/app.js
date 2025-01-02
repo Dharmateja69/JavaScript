@@ -276,8 +276,8 @@
 // ======================================================================
 // array methods
 
-const fruites = ["2323", "fsfdfss", "dsfsdfsd", "fsdfsfd", "sfsdfs"]
-const fruites1 = ["sidhu", "fsfdfss", "dsfsdfsd", "fsdfsfd", "sfsdfs"]
+// const fruites = ["2323", "fsfdfss", "dsfsdfsd", "fsdfsfd", "sfsdfs"]
+// const fruites1 = ["sidhu", "fsfdfss", "dsfsdfsd", "fsdfsfd", "sfsdfs"]
 // const totalfruites = fruites.concat(fruites1)
 // console.log(totalfruites)
 
@@ -332,7 +332,7 @@ const fruites1 = ["sidhu", "fsfdfss", "dsfsdfsd", "fsdfsfd", "sfsdfs"]
 // console.log(person)
 // delete person.age
 // console.log(person)
-
+// ===============================================================================//
 
 
 
