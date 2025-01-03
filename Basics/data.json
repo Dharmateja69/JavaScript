@@ -1,0 +1,14 @@
+{
+    "name": "sidhu",
+    "age": 12,
+    "email": "abc@gamil.com",
+    "hobbies": [
+        "Reading",
+        "Running",
+        "cooking"
+    ],
+    "address": {
+        "city": "new york",
+        "idk": true
+    }
+}

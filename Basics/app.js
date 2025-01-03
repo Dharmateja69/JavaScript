@@ -191,7 +191,7 @@
 //         console.log("invalid input")
 // }
 //===================================================================
-// for loop // DRY->Do not repeat 
+// for loop // DRY->Do not repeat
 
 // let t=1
 
@@ -212,7 +212,6 @@
 
 // =======================================================
 // while(condtion){  statement............}
-
 
 // let i = 0
 // while (i <= 5) {
@@ -241,8 +240,6 @@
 // console.log(a || a)
 // console.log(b || b)
 
-
-
 // // 3-> Logical NOT(!)
 // // true if the operands is false and vice-versa
 // console.log(!a)
@@ -250,9 +247,8 @@
 // console.log(!b)
 // console.log(a)
 
-
 // let pass = "sidhu-sid"
-// if (pass.length >= 8 && pass.includes('e')) {//one true and other is false 
+// if (pass.length >= 8 && pass.includes('e')) {//one true and other is false
 //     console.log("valid password")
 // } else {
 //     console.log("not a valid password")
@@ -302,7 +298,7 @@
 // console.log(pl.join('--$$--'))
 // console.log(pl)
 // console.log(pl.reverse())
-// console.log(pl.slice(0, 2))//0 will be included where 2 is excluded  so it will go till 0,1 only 
+// console.log(pl.slice(0, 2))//0 will be included where 2 is excluded  so it will go till 0,1 only
 // console.log(nubmers.sort())
 
 // OBJECTS -> {:,:,}
@@ -310,7 +306,7 @@
 //     fname: "sidhu",
 //     lname: "teja",
 //     age: 12,
-//     location: ['Planet', "Earth"], //nested 
+//     location: ['Planet', "Earth"], //nested
 //     isProgrammer: true,
 // }
 
@@ -318,7 +314,7 @@
 // console.log(typeof person)
 
 // //Accessing Items fro ou object
-// //2 ways 
+// //2 ways
 // //dot notation
 // console.log(person.isProgrammer)
 // console.log(person.fname)
@@ -333,8 +329,92 @@
 // delete person.age
 // console.log(person)
 // ===============================================================================//
+// 3-01-2025
+//Json
+// int this json we have to write the code in the curly {} braces only with double quotation
+const sidhu = {
+    name: "sidhu",
+    age: 12,
+    email: "abc@gamil.com",
+    hobbies: ["Reading", "Running", "cooking"],
+    address: {
+        city: "new york",
+        idk: true,
+    },
+};
+
+//json.stringify()
+// Converts a JavaScript value to a JavaScript Object Notation (JSON) string.
+// console.log(JSON.stringify(sidhu))
+
+//json.parse()
+
+// const string = JSON.stringify(sidhu)
+// console.log(JSON.parse(string))
+
+// how to work with date and time
+// year , month , day , hours, minutes , seconds , milliseconds
+// const currentDate1 = new Date(2025, 1, 10, 4, 23, 32);
+// console.log(currentDate1);
+
+// const currentDate = new Date();
+// console.log(currentDate);
+
+// const date = new Date();
+// const year = date.getFullYear(); //Gets the year, using local time.
+
+// const month = date.getMonth(); //Gets the month, using local time
+// console.log(`year : ${year}`);
+// console.log(`month : ${month}`);
+
+// console.log(date.toDateString()); //Returns a date as a string value.
+
+// console.log(date.toISOString()); //Returns a date as a string value in ISO format.
+
+// console.log(date.toLocaleString()); //Converts a date and time to a string by using the current or specified locale.
+
+// // to set own date we use
+// date.setDate(date.getDate() + 1); //Gets the day-of-the-month, using local time.
+
+// date.setDate(date.getDate() - 1); //Gets the day-of-the-month, using local time.
+
+// console.log(date);
 
 
+// //setInterval 
+// // The setInterval() function is used to repeatedly execute a specified piece of code or function at fixed time intervals. It is commonly used to create periodic tasks, such as updating the time, animations, or polling data at regular intervals. 
+// // syntax : const intervalId = setInterval(callback, delay, [args]);
+
+// function thefunction() { console.log(`This function will be executed every 2 second. `) }//callback function
+// setInterval(thefunction, 2000)
+
+// function sayHello() {
+//     console.log("Hello, World!");
+// }
+
+// // Call `sayHello` every 2 seconds
+// const intervalId = setInterval(sayHello, 2000);
+
+// // Stop the interval after 10 seconds
+// setTimeout(() => clearInterval(intervalId), 10000);
 
 
+// setTimeout()
 
+// setTimeout(function () {
+//     console.log(`This function will be executed after 3 seconds`), 3000
+// })
+
+// Stop the interval after 10 secnds
+const intervalid = setInterval(function () {//use
+    console.log(`This  funciron is being executed at the interval `)
+}, 1000)
+
+// Stop the interval after 10 seconds
+setTimeout(function () {
+    clearInterval(intervalid)//used to Cancels a Timeout object created by setInterval().
+
+
+    console.log(`This Interval stopped`)
+
+}, 10000)
