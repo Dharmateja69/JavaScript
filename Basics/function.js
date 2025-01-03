@@ -39,3 +39,33 @@
 // }
 
 // funcationvar("sid");
+
+// call back function in java
+// when we provide function as an (argument) to other function that function is known as callback  function
+
+function showcallfun(fn) {
+    const value = 10;
+    fn(value)// this function is called call bak function
+
+}
+showcallfun(function (value) {
+
+    console.log(value)
+})
+
+function greet(name, cb) {
+    console.log(`hello ${name}`)
+    cb()
+}
+//declared outside
+function cb() {
+    console.log(`i am callback function`)
+}
+greet("sidhu", cb)
+
+// else we can do
+greet("sidhu", function cb() {
+    console.log(`i am callback function`)
+})
+// both the above processs is valid
+
