@@ -4,3 +4,4 @@ function multiply(a, b = 1) {
 }
 
 multiply(2, 2)
+multiply(5)
