@@ -6,3 +6,43 @@
 // ->Iteration: Map provides buit-in methods for easy iteration over its elements.
 
 
+// const map = new Map()
+
+// const keyOne = "string"
+// const keyTwo = {}
+// const keyThree = function () { }
+
+// map.set(keyOne, "value of key one")
+// map.set(keyTwo, "value of key two")
+
+// map.set(keyThree, "value of key three")
+// console.log(map.keys())
+// console.log(map.values())
+// console.log(map.size)
+// // console.log(map.delete(keyOne))
+// // console.log(map)
+
+// for (let [key, value] of map) {
+//     console.log(`${key}--${value}`)
+// }
+// for (let key of map.keys()) {
+//     console.log(`${key}`)
+// }
+// //vice versa for value
+
+
+const map = new Map()
+const ab = "a"
+const bc = "b"
+
+const cd = "c"
+
+map.set(ab, "1")
+map.set(bc, "2")
+map.set(cd, "3")
+console.log(map.get("a"))
+console.log(map.keys())
+console.log(map.size)
+console.log(map.delete(bc))
+console.log(map.size)
+
