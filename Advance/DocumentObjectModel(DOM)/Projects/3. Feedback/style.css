@@ -45,27 +45,27 @@ body {
   margin: 20px 0;
 }
 
-.rating {
+.ratings {
   flex: 1;
   cursor: pointer;
   padding: 20px;
   margin: 10px 5px;
 }
 
-.rating:hover,
-.rating.active {
+.ratings:hover,
+.ratings.active {
   border-radius: 4px;
   background: #ccc;
   transition: 1s ease;
 }
 
-.rating .icon {
+.ratings .icon {
   width: 40px;
   font-size: 5rem;
   margin-right: 10px;
 }
 
-.rating small {
+.ratings small {
   color: #fff;
   display: inline-block;
   margin: 10px 0 0;
