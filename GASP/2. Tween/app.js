@@ -11,4 +11,4 @@ gsap.to(".box", {
     repeat: -1
 })
 
-// generalt to method is used in gasp , which is used to send the object to one place to another.
+// generaly to method is used in gasp , which is used to send the object to one place to another.
