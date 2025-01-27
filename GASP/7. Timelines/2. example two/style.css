@@ -24,7 +24,9 @@ body {
 .buttons-container {
   display: flex;
 }
-
+button:hover {
+  cursor: pointer;
+}
 button {
   padding: 10px 20px;
   margin-left: 10px;
