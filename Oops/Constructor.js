@@ -64,3 +64,26 @@
 // console.log(car2)
 // console.log(car2.start())
 // console.log(car2.stop())
+// ===========================================================================
+
+
+// Built-in constructors, also known as native constructors, are standard
+// constructors provided by JavaScript that allow you to create objects of
+// various data types. These constructors are available globally and do not
+// need to be explicitly defined. They provide a convenient way to create
+// instances of primitive data types and built-in objects.
+
+const num1 = new Number(10)
+console.log(num1)
+const str = new String("sidu")
+console.log(str)
+const bool = new Boolean(false)
+console.log(bool)
+const rray = new Array(1, 2, 3, 4)
+console.log(rray)
+
+
+
+
+
+
