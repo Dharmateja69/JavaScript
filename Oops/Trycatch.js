@@ -19,6 +19,6 @@ function parseJSON(jsonString) {
 const valid = '{"name":"sidhu","age":23}'
 const result = parseJSON(valid)
 console.log(result)
-const notvalid = '{"name:"sidhu","age":23}'
+const notvalid = '{"name+:"sidhu","age":23}'
 const result2 = parseJSON(notvalid)
 console.log(result2)
