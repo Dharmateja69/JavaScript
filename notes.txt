@@ -1,1 +1,3 @@
 Hi this is 100 js projects...
+autoplay loop muted plays-inline 
+1-bg-vedio
